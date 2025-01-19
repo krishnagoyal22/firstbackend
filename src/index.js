@@ -1,11 +1,8 @@
-require("dotenv").config({path:"./env"})
 
-//at 33:00 in connect db yt video import method 
-
-
+//at 33:00 in connect db yt video import method
 import mongoose, { connect } from 'mongoose';
 
-import { db_name } from './constants';
+import { db_name } from './constant.js';
 
 import connectDB from './db/index.js';
 
